@@ -7,7 +7,7 @@
   },
   "name": "angular-syntax-formatter",
   "description": "This is a custom Prettier plugin for formatting Angular code by adding public/private modifiers and return types to functions and variables.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "prettier-plugin-angular-modifiers/index.js",
   "devDependencies": {},
   "scripts": {
