@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "@babel/generator": "^7.24.5",
+    "@babel/parser": "^7.24.5",
+    "@babel/traverse": "^7.24.5",
+    "prettier": "^3.2.5"
+  },
+  "name": "angular-syntax-formatter",
+  "description": "This is a custom Prettier plugin for formatting Angular code by adding public/private modifiers and return types to functions and variables.",
+  "version": "1.0.0",
+  "main": "prettier-plugin-angular-modifiers/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zagham-nadeem/angular-syntax-formatter.git"
+  },
+  "keywords": [
+    "angular",
+    "prettier",
+    "sytax",
+    "highlighter",
+    "ts",
+    "typescript",
+    "functions"
+  ],
+  "author": "Zagham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zagham-nadeem/angular-syntax-formatter/issues"
+  },
+  "homepage": "https://github.com/zagham-nadeem/angular-syntax-formatter#readme"
+}
