@@ -9,7 +9,8 @@ To use this plugin in your Angular project, follow these steps:
 1. Install Prettier and the plugin as dependencies:
 
    ```bash
-   npm install prettier @babel/parser @babel/traverse @babel/generator prettier-plugin-angular-modifiers --save-dev
+   npm install angular-syntax-formatter
+   npm install prettier @babel/parser @babel/traverse @babel/generator --save-dev
    ```
 
 2. Create a `prettier.config.js` file in the root directory of your project:
@@ -17,7 +18,7 @@ To use this plugin in your Angular project, follow these steps:
    ```javascript
    // prettier.config.js
    module.exports = {
-     plugins: ["prettier-plugin-angular-modifiers"],
+     plugins: ["angular-syntax-formatter"],
      parser: "typescript"
    };
    ```
